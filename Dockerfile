@@ -6,7 +6,7 @@ WORKDIR /app
 
 # 3. JAR 파일 복사
 # Gradle 빌드 후 생성된 JAR 파일을 컨테이너로 복사
-COPY build/libs/*s.jar app.jar
+COPY build/libs/*.jar app.jar
 
 # 4. 포트 노출
 EXPOSE 8080
