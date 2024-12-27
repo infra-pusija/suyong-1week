@@ -31,5 +31,5 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       run: |
         docker build -t infra_study .
-		    docker tag infra_study:latest 905418222682.dkr.ecr.ap-northeast-2.amazonaws.com/infra_study:latest
+        docker tag infra_study:latest 905418222682.dkr.ecr.ap-northeast-2.amazonaws.com/infra_study:latest
         docker push 905418222682.dkr.ecr.ap-northeast-2.amazonaws.com/infra_study:latest
